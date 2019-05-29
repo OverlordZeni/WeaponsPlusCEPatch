@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Weapons+ CE Patch</name>
+  <author>OverlordZeni</author>
+  <supportedVersions>
+	<li>1.0</li>
+  </supportedVersions>
+  <description>
+Makes the Weapons+ mod compatible with Combat Extended.  For the glory of Hanna.
+</description>
+</ModMetaData>

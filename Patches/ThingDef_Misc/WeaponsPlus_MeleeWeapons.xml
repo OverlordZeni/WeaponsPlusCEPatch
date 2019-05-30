@@ -125,10 +125,64 @@
       </li>
 
       <!-- Nunchaku -->
+      <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MeleeWeapon_Nunchaku"]/tools</xpath>
+      <value>
+        <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>14</power>
+          <cooldownTime>1.4</cooldownTime>
+          <chanceFactor>1.165</chanceFactor>
+          <armorPenetration>0.148</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>chain</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>1.4</cooldownTime>
+          <armorPenetration>0.075</armorPenetration>
+          <!-- <linkedBodyPartsGroup>Chain</linkedBodyPartsGroup> -->
+          <linkedBodyPartsGroup>Neck</linkedBodyPartsGroup>
+
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>head</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>14</power>
+          <cooldownTime>1.4</cooldownTime>
+          <chanceFactor>1.165</chanceFactor>
+          <armorPenetration>0.148</armorPenetration>
+          <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+        </li>
+        </tools>
+      </value>
+		  </li>
+
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Nunchaku"]/statBases</xpath>
         <value>
           <Bulk>3</Bulk>
+          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Nunchaku"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.75</MeleeParryChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 

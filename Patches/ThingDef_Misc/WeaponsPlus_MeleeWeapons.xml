@@ -338,6 +338,7 @@
 				    <MeleeParryChance>0.25</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
+      </li>
 
       <!-- Kukri -->
       <li Class="PatchOperationReplace">
@@ -394,6 +395,7 @@
 				    <MeleeParryChance>0.25</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
+      </li>
 
       <!-- Kunai oh god don't do this yet -->
 
@@ -406,11 +408,33 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bardiche"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeParryChance>0.375</MeleeParryChance>
+			    </equippedStatOffsets>
+        </value>
+      </li>
+
       <!-- Glaive -->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]/statBases</xpath>
         <value>
           <Bulk>10</Bulk>
+          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -419,6 +443,18 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bo_Staff"]/statBases</xpath>
         <value>
           <Bulk>6</Bulk>
+          <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bo_Staff"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -430,11 +466,36 @@
         </value>
       </li>
 
+      <!-- Replace instead of Add -->
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Scythe"]/equippedStatOffsets</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>1</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+            <PlantHarvestYield>0.1</PlantHarvestYield>
+		        <PlantWorkSpeed>0.1</PlantWorkSpeed>
+			    </equippedStatOffsets>
+        </value>
+      </li>
+
       <!-- Naginata -->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Naginata"]/statBases</xpath>
         <value>
           <Bulk>10</Bulk>
+          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Naginata"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -443,6 +504,17 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Brass_Knuckles"]/statBases</xpath>
         <value>
           <Bulk>1.2</Bulk>
+          <MeleeCounterParryBonus>1.25</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Brass_Knuckles"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.125</MeleeParryChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -451,6 +523,17 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Tonfa"]/statBases</xpath>
         <value>
           <Bulk>5</Bulk>
+          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Tonfa"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -462,11 +545,31 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
+			    </equippedStatOffsets>
+        </value>
+      </li>
+
       <!-- Claymore -->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Claymore"]/statBases</xpath>
         <value>
           <Bulk>10</Bulk>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Claymore"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeParryChance>0.66</MeleeParryChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -478,11 +581,31 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Zweihander"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.8</MeleeCritChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
+			    </equippedStatOffsets>
+        </value>
+      </li>
+
       <!-- Sabre -->
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Sabre"]/statBases</xpath>
         <value>
           <Bulk>3</Bulk>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Sabre"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.5</MeleeCritChance>
+				    <MeleeParryChance>0.6</MeleeParryChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 

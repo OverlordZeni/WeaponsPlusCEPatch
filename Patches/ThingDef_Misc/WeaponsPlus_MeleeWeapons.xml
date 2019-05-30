@@ -1,60 +1,139 @@
 <?xml version='1.0' encoding='utf-8'?>
-
 <Patch>
   <Operation Class="PatchOperationSequence">
     <success></success>
     <operations>
       <li Class="CombatExtended.PatchOperationFindMod">
-        <modName>Weapons+</modname>
+        <modName>Weapons+</modName>
+      </li>
+      <!-- Great Axe -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Great_Axe"]/statBases</xpath>
+        <value>
+          <Bulk>11</Bulk>
+        </value>
+      </li>
+      <!-- Flail -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Flail"]/statBases</xpath>
+        <value>
+          <Bulk>4</Bulk>
+        </value>
+      </li>
+      <!-- Nunchaku -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Nunchaku"]/statBases</xpath>
+        <value>
+          <Bulk>3</Bulk>
+        </value>
+      </li>
+      <!-- Maul -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Maul"]/statBases</xpath>
+        <value>
+          <Bulk>14</Bulk>
+        </value>
+      </li>
+      <!-- Morning Star -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Morning_Star"]/statBases</xpath>
+        <value>
+          <Bulk>4</Bulk>
+        </value>
+      </li>
+      <!-- Primitive Knife -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Primitive_Knife"]/statBases</xpath>
+        <value>
+          <Bulk>1.2</Bulk>
+        </value>
+      </li>
+      <!-- Kukri -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Kukri"]/statBases</xpath>
+        <value>
+          <Bulk>1.4</Bulk>
+        </value>
+      </li>
+      <!-- Kunai oh god don't do this yet -->
+      <!-- Bardiche -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bardiche"]/statBases</xpath>
+        <value>
+          <Bulk>12</Bulk>
+        </value>
+      </li>
+      <!-- Glaive -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]/statBases</xpath>
+        <value>
+          <Bulk>10</Bulk>
+        </value>
+      </li>
+      <!-- Bo Staff -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bo_Staff"]/statBases</xpath>
+        <value>
+          <Bulk>6</Bulk>
+        </value>
+      </li>
+      <!-- Scythe -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Scythe"]/statBases</xpath>
+        <value>
+          <Bulk>12</Bulk>
+        </value>
+      </li>
+      <!-- Naginata -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Naginata"]/statBases</xpath>
+        <value>
+          <Bulk>10</Bulk>
+        </value>
+      </li>
+      <!-- Brass Knuckles -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Brass_Knuckles"]/statBases</xpath>
+        <value>
+          <Bulk>1.2</Bulk>
+        </value>
+      </li>
+      <!-- Tonfa -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Tonfa"]/statBases</xpath>
+        <value>
+          <Bulk>5</Bulk>
+        </value>
+      </li>
+      <!-- Katana -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]/statBases</xpath>
+        <value>
+          <Bulk>3.5</Bulk>
+        </value>
+      </li>
+      <!-- Claymore -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Claymore"]/statBases</xpath>
+        <value>
+          <Bulk>9</Bulk>
+        </value>
+      </li>
+      <!-- Zweihander -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Zweihander"]/statBases</xpath>
+        <value>
+          <Bulk>13</Bulk>
+        </value>
+      </li>
+      <!-- Sabre -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Sabre"]/statBases</xpath>
+        <value>
+          <Bulk>3</Bulk>
+        </value>
       </li>
 
-      <!-- Scythe -->
-      <li Class="PatchOperationReplace">
-      <xpath>/Defs/ThingDef[defName="MeleeWeapon_Scythe"]/tools</xpath>
-      <value>
-        <tools>
-        <li Class="CombatExtended.ToolCE">
-          <label>shaft</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>8</power>
-          <cooldownTime>1.75</cooldownTime>
-          <armorPenetration>0.102</armorPenetration>
-          <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
-        </li>
-        <li Class="CombatExtended.ToolCE">
-          <label>point</label>
-          <capacities>
-            <li>Poke</li>
-          </capacities>
-          <power>8</power>
-          <cooldownTime>1.75</cooldownTime>
-          <armorPenetration>0.075</armorPenetration>
-          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
-        </li>
-        <li Class="CombatExtended.ToolCE">
-          <label>head</label>
-          <capacities>
-            <li>Stab</li>
-          </capacities>
-          <power>24.1</power>
-          <cooldownTime>1.75</cooldownTime>
-          <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.39</armorPenetration>
-          <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
-        </li>
-        </tools>
-      </value>
-      </li>
-      <li Class="PatchOperationAdd">
-      <xpath>/Defs/ThingDef[defName="MeleeWeapon_Scythe"]/statBases</xpath>
-      <value>
-        <Bulk>5</Bulk>
-      </value>
-      </li>
-      <!-- end Scythe -->
-      
     </operations>
   </Operation>
 </Patch>

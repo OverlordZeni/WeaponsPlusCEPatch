@@ -284,6 +284,45 @@
       </li>
 
       <!-- Primitive Knife -->
+      <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MeleeWeapon_Primitive_Knife"]/tools</xpath>
+      <value>
+        <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>1.3</cooldownTime>
+          <armorPenetration>0.087</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+          <li>Cut</li>
+          </capacities>
+          <power>10.5</power>
+          <cooldownTime>1.3</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.231</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+          <li>Stab</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.3</cooldownTime>
+          <armorPenetration>0.109</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        </tools>
+      </value>
+		  </li>
+
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Primitive_Knife"]/statBases</xpath>
         <value>
@@ -291,13 +330,70 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Primitive_Knife"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
+			    </equippedStatOffsets>
+        </value>
+
       <!-- Kukri -->
+      <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MeleeWeapon_Kukri"]/tools</xpath>
+      <value>
+        <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.4</cooldownTime>
+          <armorPenetration>0.095</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+          <li>Cut</li>
+          </capacities>
+          <power>14</power>
+          <cooldownTime>1.4</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.25</armorPenetration>
+          <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+          <li>Stab</li>
+          </capacities>
+          <power>13.5</power>
+          <cooldownTime>1.4</cooldownTime>
+          <armorPenetration>0.12</armorPenetration>
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        </tools>
+      </value>
+		  </li>
+
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Kukri"]/statBases</xpath>
         <value>
-          <Bulk>1.4</Bulk>
+          <Bulk>1.8</Bulk>
         </value>
       </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Kukri"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
+			    </equippedStatOffsets>
+        </value>
 
       <!-- Kunai oh god don't do this yet -->
 

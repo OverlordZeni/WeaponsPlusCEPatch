@@ -54,10 +54,73 @@
       </li>
 
       <!-- Flail -->
+      <li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="MeleeWeapon_Flail"]/tools</xpath>
+      <value>
+        <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>handle</label>
+          <capacities>
+          <li>Poke</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>2.3</cooldownTime>
+          <armorPenetration>0.075</armorPenetration>
+          <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>chain</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>6</power>
+          <cooldownTime>2.3</cooldownTime>
+          <armorPenetration>0.075</armorPenetration>
+          <!-- <linkedBodyPartsGroup>Chain</linkedBodyPartsGroup> -->
+          <linkedBodyPartsGroup>Neck</linkedBodyPartsGroup>
+
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>head</label>
+          <capacities>
+          <li>Blunt</li>
+          </capacities>
+          <power>20</power>
+          <cooldownTime>2.3</cooldownTime>
+          <chanceFactor>1.165</chanceFactor>
+          <armorPenetration>0.153</armorPenetration>
+          <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>spikes</label>
+          <capacities>
+          <li>Stab</li>
+          </capacities>
+          <power>24</power>
+          <cooldownTime>2.3</cooldownTime>
+          <chanceFactor>1.165</chanceFactor>
+          <armorPenetration>0.221</armorPenetration>
+          <!-- <linkedBodyPartsGroup>Spikes</linkedBodyPartsGroup> -->
+          <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+        </li>
+        </tools>
+      </value>
+		  </li>
+
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Flail"]/statBases</xpath>
         <value>
           <Bulk>4</Bulk>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Flail"]</xpath>
+        <value>
+          <equippedStatOffsets>
+				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
+			    </equippedStatOffsets>
         </value>
       </li>
 
@@ -172,7 +235,7 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Claymore"]/statBases</xpath>
         <value>
-          <Bulk>9</Bulk>
+          <Bulk>10</Bulk>
         </value>
       </li>
 

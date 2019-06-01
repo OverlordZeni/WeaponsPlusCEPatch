@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success></success>
+    <operations>
+      <li Class="CombatExtended.PatchOperationFindMod">
+        <modName>Weapons+</modName>
+      </li>
+      
+      <!-- Temporarily removing Kunai. -->
+      <li Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
+		  </li>
+
+    </operations>
+  </Operation>
+</Patch>

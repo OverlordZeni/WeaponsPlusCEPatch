@@ -6,6 +6,7 @@
       <li Class="CombatExtended.PatchOperationFindMod">
         <modName>Weapons+</modName>
       </li>
+
       <!-- Great Axe -->
       <li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="MeleeWeapon_Great_Axe"]/tools</xpath>
@@ -1020,45 +1021,3 @@
     </operations>
   </Operation>
 </Patch>
-
-
-<!--       
-      <li Class="PatchOperationReplace">
-			<xpath>/Defs/ThingDef[defName="MeleeWeapon_"]/tools</xpath>
-      <value>
-        <tools>
-        <li Class="CombatExtended.ToolCE">
-          <label></label>
-          <capacities>
-          <li></li>
-          </capacities>
-          <power></power>
-          <cooldownTime></cooldownTime>
-          <chanceFactor></chanceFactor>
-          <armorPenetration></armorPenetration>
-          <linkedBodyPartsGroup></linkedBodyPartsGroup>
-        </li>
-        <li Class="CombatExtended.ToolCE">
-          <label></label>
-          <capacities>
-          <li></li>
-          </capacities>
-          <power></power>
-          <cooldownTime></cooldownTime>
-          <armorPenetration></armorPenetration>
-          <linkedBodyPartsGroup></linkedBodyPartsGroup>
-        </li>
-        <li Class="CombatExtended.ToolCE">
-          <label></label>
-          <capacities>
-          <li></li>
-          </capacities>
-          <power></power>
-          <cooldownTime></cooldownTime>
-          <armorPenetration></armorPenetration>
-          <linkedBodyPartsGroup></linkedBodyPartsGroup>
-        </li>		
-        </tools>
-      </value>
-		  </li> 
--->

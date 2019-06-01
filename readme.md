@@ -7,8 +7,14 @@ Pewpew, to do:
 
 Misc Notes
 Point valuation system attributes:
--Bulk
--Crafting level requirement
--Damage
--Attack Speed
--Slower weapon speeds, slower weapons still attack instantly when first engaging in combat, making them far more valuable.  They do still linger in place after attacking though.
+-Meta
+--Bulk
+--Crafting level requirement
+
+-Offense
+--Damage
+--Attack Speed
+--Slower weapon speeds, slower weapons still attack instantly when first engaging in combat, making them far more valuable.
+
+-Defense
+--

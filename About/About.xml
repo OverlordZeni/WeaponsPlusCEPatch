@@ -5,5 +5,5 @@
   <supportedVersions>
 	  <li>1.0</li>
   </supportedVersions>
-  <description>Makes the Weapons+ mod compatible with Combat Extended.  For the glory of Hanna.</description>
+  <description>Makes the Weapons+ mod compatible with Combat Extended.  For the glory of Hanna.\n\nCurrently disables Kunai, still considering the best way to port it.\n\nI had to do significant balancing when giving the weapons new stats, please feel free to give feedback.</description>
 </ModMetaData>

@@ -12,7 +12,7 @@
 			<xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
 		  </li> -->
 
-      <li Class="PatchOperationAttributeAdd">
+      <!-- <li Class="PatchOperationAttributeAdd">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <attribute>Class</attribute>
         <value>CombatExtended.AmmoDef</value>
@@ -22,7 +22,7 @@
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <attribute>ParentName</attribute>
         <value>BaseWeaponAndAmmoNeolithic</value>
-		  </li>
+		  </li> -->
 
       <!-- Guh, I'm just going to replace the whole thing for now. 
       Will learn modcheck later so that I can replace small parts without performing so many xpaths. 
@@ -30,82 +30,84 @@
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <value>
-          <defName>RangedWeapon_Kunai</defName>
-          <label>kunai</label>
-          <description>Originally a Japanese farming instrument, similar in use to a hand-shovel, the kunai is a multi-purpose tool useful in both ranged and melee combat.</description>
-          <graphicData>
-            <texPath>Weapons_Ranged/Knives/Kunai</texPath>
-            <graphicClass>Graphic_StackCount</graphicClass>
-          </graphicData>
+          <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic">
+            <defName>RangedWeapon_Kunai</defName>
+            <label>kunai</label>
+            <description>Originally a Japanese farming instrument, similar in use to a hand-shovel, the kunai is a multi-purpose tool useful in both ranged and melee combat.</description>
+            <graphicData>
+              <texPath>Weapons_Ranged/Knives</texPath>
+              <graphicClass>Graphic_StackCount</graphicClass>
+            </graphicData>
+          <soundInteract>Interact_BeatFire</soundInteract>
+          <costList>
+            <Steel>3</Steel>
+          </costList>
+          <statBases>
+            <WorkToMake>1400</WorkToMake>
+            <MarketValue>4</MarketValue>
+            <SightsEfficiency>0.45</SightsEfficiency>
+            <ShotSpread>1.5</ShotSpread>
+            <SwayFactor>2.5</SwayFactor>
+            <Bulk>1.00</Bulk>
+            <Mass>0.5</Mass>
+            <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+          </statBases>
+          <equippedAngleOffset>30</equippedAngleOffset>
+          <stackLimit>75</stackLimit>
+          <weaponTags>
+            <li>NeolithicRanged</li>
+            <li>CE_Pila</li>
+            <li>CE_OneHandedWeapon</li>
+            <li>CE_AI_Rifle</li>
+          </weaponTags>
+          <tradeTags>
+            <li>CE_AutoEnableTrade</li>
+          </tradeTags>
+          <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+              <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>Kunai_Thrown</defaultProjectile>
+              <warmupTime>0.1</warmupTime>
+              <range>12</range>
+            </li>
+          </verbs>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.3</cooldownTime>
+              <armorPenetration>0.102</armorPenetration>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>10</power>
+              <cooldownTime>1.3</cooldownTime>
+              <armorPenetration>0.241</armorPenetration>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>12</power>
+              <cooldownTime>1.3</cooldownTime>
+              <chanceFactor>1.33</chanceFactor>
+              <armorPenetration>0.241</armorPenetration>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+          </tools>
+          <ammoClass>Javelin</ammoClass>
+         </ThingDef>
         </value>
-        <soundInteract>Interact_BeatFire</soundInteract>
-        <costList>
-			    <Steel>3</Steel>
-        </costList>
-        <statBases>
-          <WorkToMake>1400</WorkToMake>
-          <MarketValue>4</MarketValue>
-          <SightsEfficiency>0.45</SightsEfficiency>
-          <ShotSpread>1.5</ShotSpread>
-          <SwayFactor>2.5</SwayFactor>
-          <Bulk>1.00</Bulk>
-          <Mass>0.5</Mass>
-          <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
-        </statBases>
-        <equippedAngleOffset>30</equippedAngleOffset>
-        <stackLimit>75</stackLimit>
-        <weaponTags>
-          <li>NeolithicRanged</li>
-          <li>CE_Pila</li>
-          <li>CE_OneHandedWeapon</li>
-          <li>CE_AI_Rifle</li>
-        </weaponTags>
-        <tradeTags>
-          <li>CE_AutoEnableTrade</li>
-        </tradeTags>
-        <verbs>
-          <li Class="CombatExtended.VerbPropertiesCE">
-            <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
-            <hasStandardCommand>true</hasStandardCommand>
-            <defaultProjectile>Kunai_Thrown</defaultProjectile>
-            <warmupTime>0.1</warmupTime>
-            <range>12</range>
-          </li>
-        </verbs>
-        <tools>
-          <li Class="CombatExtended.ToolCE">
-            <label>handle</label>
-            <capacities>
-              <li>Blunt</li>
-            </capacities>
-            <power>8</power>
-            <cooldownTime>1.3</cooldownTime>
-            <armorPenetration>0.102</armorPenetration>
-            <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
-          </li>
-          <li Class="CombatExtended.ToolCE">
-            <label>edge</label>
-            <capacities>
-              <li>Cut</li>
-            </capacities>
-            <power>10</power>
-            <cooldownTime>1.3</cooldownTime>
-            <armorPenetration>0.241</armorPenetration>
-            <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
-          </li>
-          <li Class="CombatExtended.ToolCE">
-            <label>point</label>
-            <capacities>
-              <li>Stab</li>
-            </capacities>
-            <power>12</power>
-            <cooldownTime>1.3</cooldownTime>
-            <chanceFactor>1.33</chanceFactor>
-            <armorPenetration>0.241</armorPenetration>
-            <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
-          </li>
-        </tools>
-        <ammoClass>Javelin</ammoClass>
       </li>
 
     </operations>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>Weapons+CEPatch</identifier>
+	<version>1.0.0.0</version>
+	<dependencies>
+    <li>1631756268</li> <!-- Combat Extended -->
+    <li>1578914181</li> <!-- Weapons+ -->
+	</dependencies>
+	<incompatibleWith>
+	</incompatibleWith>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+	</loadAfter>
+	<manifestUri></manifestUri>
+	<downloadUri></downloadUri>
+</Manifest>

@@ -3,8 +3,9 @@
 	<identifier>Weapons+CEPatch</identifier>
 	<version>1.0.0.0</version>
 	<dependencies>
-    <li>1631756268</li> <!-- Combat Extended -->
-    <li>1578914181</li> <!-- Weapons+ -->
+    <!-- <li>1631756268</li> Combat Extended -->
+    <li>CombatExtended</li>
+    <li>1578914181</li> <!-- Weapons+ lacks a manifest -->
 	</dependencies>
 	<incompatibleWith>
 	</incompatibleWith>

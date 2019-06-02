@@ -35,7 +35,7 @@
             <label>kunai</label>
             <description>Originally a Japanese farming instrument, similar in use to a hand-shovel, the kunai is a multi-purpose tool useful in both ranged and melee combat.</description>
             <graphicData>
-              <texPath>Weapons_Ranged/Knives</texPath>
+              <texPath>Weapons_Ranged/Knives/Kunai</texPath>
               <graphicClass>Graphic_StackCount</graphicClass>
             </graphicData>
           <soundInteract>Interact_BeatFire</soundInteract>

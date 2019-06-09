@@ -26,7 +26,7 @@
 
       <!-- Guh, I'm just going to replace the whole thing for now. 
       Will learn modcheck later so that I can replace small parts without performing so many xpaths. 
-      Could also just patch and parent Pila here, hm. -->
+      Could also just patch Pila and parent it here, hm. -->
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <value>
@@ -106,7 +106,7 @@
               <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
             </li>
           </tools>
-          <ammoClass>Javelin</ammoClass>
+          <ammoClass>Kunai</ammoClass>
          </ThingDef>
         </value>
       </li>

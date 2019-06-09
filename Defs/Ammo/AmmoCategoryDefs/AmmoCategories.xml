@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>Kunai</defName>
+		<label>kunai</label>
+    <description>Weeb.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+</Defs>

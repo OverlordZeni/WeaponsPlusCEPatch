@@ -19,7 +19,7 @@
           </capacities>
           <power>12</power>
           <cooldownTime>3</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.133</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -30,7 +30,7 @@
           <power>36</power>
           <cooldownTime>3</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.38</armorPenetration>
+          <armorPenetration>0.278</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -66,7 +66,7 @@
           </capacities>
           <power>10</power>
           <cooldownTime>2.3</cooldownTime>
-          <armorPenetration>0.075</armorPenetration>
+          <armorPenetration>0.086</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -76,7 +76,7 @@
           </capacities>
           <power>6</power>
           <cooldownTime>2.3</cooldownTime>
-          <armorPenetration>0.075</armorPenetration>
+          <armorPenetration>0.087</armorPenetration>
           <!-- <linkedBodyPartsGroup>Chain</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Neck</linkedBodyPartsGroup>
 
@@ -89,7 +89,7 @@
           <power>20</power>
           <cooldownTime>2.3</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.153</armorPenetration>
+          <armorPenetration>0.192</armorPenetration>
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -100,7 +100,7 @@
           <power>24</power>
           <cooldownTime>2.3</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.221</armorPenetration>
+          <armorPenetration>0.388</armorPenetration>
           <!-- <linkedBodyPartsGroup>Spikes</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
@@ -148,7 +148,7 @@
           </capacities>
           <power>6</power>
           <cooldownTime>1.4</cooldownTime>
-          <armorPenetration>0.075</armorPenetration>
+          <armorPenetration>0.087</armorPenetration>
           <!-- <linkedBodyPartsGroup>Chain</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Neck</linkedBodyPartsGroup>
 
@@ -200,7 +200,7 @@
           <power>30</power>
           <cooldownTime>3</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.18</armorPenetration>
+          <armorPenetration>0.264</armorPenetration>
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -236,7 +236,7 @@
           </capacities>
           <power>9</power>
           <cooldownTime>2</cooldownTime>
-          <armorPenetration>0.075</armorPenetration>
+          <armorPenetration>0.11</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -247,7 +247,7 @@
           <power>16</power>
           <cooldownTime>2</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.153</armorPenetration>
+          <armorPenetration>0.163</armorPenetration>
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -258,7 +258,7 @@
           <power>18</power>
           <cooldownTime>2</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.221</armorPenetration>
+          <armorPenetration>0.317</armorPenetration>
           <!-- <linkedBodyPartsGroup>Spikes</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
@@ -307,7 +307,7 @@
           <power>10.5</power>
           <cooldownTime>1.3</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.231</armorPenetration>
+          <armorPenetration>0.118</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -317,7 +317,7 @@
           </capacities>
           <power>9</power>
           <cooldownTime>1.3</cooldownTime>
-          <armorPenetration>0.109</armorPenetration>
+          <armorPenetration>0.201</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -353,7 +353,7 @@
           </capacities>
           <power>8</power>
           <cooldownTime>1.4</cooldownTime>
-          <armorPenetration>0.095</armorPenetration>
+          <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -364,7 +364,7 @@
           <power>14</power>
           <cooldownTime>1.4</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.25</armorPenetration>
+          <armorPenetration>0.142</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -374,7 +374,7 @@
           </capacities>
           <power>13.5</power>
           <cooldownTime>1.4</cooldownTime>
-          <armorPenetration>0.12</armorPenetration>
+          <armorPenetration>0.26</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -413,7 +413,7 @@
           </capacities>
           <power>14</power>
           <cooldownTime>3</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.148</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -423,7 +423,7 @@
           </capacities>
           <power>23</power>
           <cooldownTime>3</cooldownTime>
-          <armorPenetration>0.221</armorPenetration>
+          <armorPenetration>0.377</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -434,7 +434,7 @@
           <power>36</power>
           <cooldownTime>3</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.38</armorPenetration>
+          <armorPenetration>0.278</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -444,7 +444,7 @@
           </capacities>
           <power>18</power>
           <cooldownTime>3</cooldownTime>
-          <armorPenetration>0.153</armorPenetration>
+          <armorPenetration>0.178</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -480,7 +480,7 @@
           </capacities>
           <power>8</power>
           <cooldownTime>1.6</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -491,7 +491,7 @@
           <power>22</power>
           <cooldownTime>1.6</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.227</armorPenetration>
+          <armorPenetration>0.195</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -502,7 +502,7 @@
           <power>22.5</power>
           <cooldownTime>1.6</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.353</armorPenetration>
+          <armorPenetration>0.371</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -541,7 +541,7 @@
           <power>14</power>
           <cooldownTime>1.5</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.15</armorPenetration>
+          <armorPenetration>0.148</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -600,7 +600,7 @@
           </capacities>
           <power>21</power>
           <cooldownTime>2.7</cooldownTime>
-          <armorPenetration>0.227</armorPenetration>
+          <armorPenetration>0.188</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -611,7 +611,7 @@
           <power>36</power>
           <cooldownTime>2.7</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.227</armorPenetration>
+          <armorPenetration>0.278</armorPenetration>
           <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -650,7 +650,7 @@
           </capacities>
           <power>11</power>
           <cooldownTime>1.75</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -661,7 +661,7 @@
           <power>24</power>
           <cooldownTime>1.75</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.227</armorPenetration>
+          <armorPenetration>0.207</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -672,7 +672,7 @@
           <power>22.5</power>
           <cooldownTime>1.75</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.41</armorPenetration>
+          <armorPenetration>0.353</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -711,7 +711,7 @@
           <power>9</power>
           <cooldownTime>1.2</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.153</armorPenetration>
+          <armorPenetration>0.11</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -748,7 +748,7 @@
           </capacities>
           <power>12</power>
           <cooldownTime>1.7</cooldownTime>
-          <armorPenetration>0.15</armorPenetration>
+          <armorPenetration>0.133</armorPenetration>
           <!-- <linkedBodyPartsGroup>End</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
@@ -760,7 +760,7 @@
           <power>13</power>
           <cooldownTime>1.7</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.15</armorPenetration>
+          <armorPenetration>0.14</armorPenetration>
           <!-- <linkedBodyPartsGroup>Side</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
@@ -798,7 +798,7 @@
           </capacities>
           <power>9</power>
           <cooldownTime>2.4</cooldownTime>
-          <armorPenetration>0.87</armorPenetration>
+          <armorPenetration>0.11</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -809,7 +809,7 @@
           <power>21</power>
           <cooldownTime>2.4</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.244</armorPenetration>
+          <armorPenetration>0.353</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -820,7 +820,7 @@
           <power>24</power>
           <cooldownTime>2.4</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.147</armorPenetration>
+          <armorPenetration>0.207</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -856,7 +856,7 @@
           </capacities>
           <power>14</power>
           <cooldownTime>2.5</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.148</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -867,7 +867,7 @@
           <power>29</power>
           <cooldownTime>2.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.353</armorPenetration>
+          <armorPenetration>0.445</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -878,7 +878,7 @@
           <power>34</power>
           <cooldownTime>2.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.227</armorPenetration>
+          <armorPenetration>0.267</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -914,7 +914,7 @@
           </capacities>
           <power>16</power>
           <cooldownTime>2.7</cooldownTime>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.163</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -925,7 +925,7 @@
           <power>32</power>
           <cooldownTime>2.7</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.4</armorPenetration>
+          <armorPenetration>0.478</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -936,7 +936,7 @@
           <power>38</power>
           <cooldownTime>2.7</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.38</armorPenetration>
+          <armorPenetration>0.289</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -972,7 +972,7 @@
           </capacities>
           <power>8</power>
           <cooldownTime>1.8</cooldownTime>
-          <armorPenetration>0.87</armorPenetration>
+          <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -983,7 +983,7 @@
           <power>16</power>
           <cooldownTime>1.8</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.23</armorPenetration>
+          <armorPenetration>0.292</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -994,7 +994,7 @@
           <power>18</power>
           <cooldownTime>1.8</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.147</armorPenetration>
+          <armorPenetration>0.169</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>

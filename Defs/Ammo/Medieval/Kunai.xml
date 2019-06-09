@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<!-- ==================== AmmoSet ========================== -->
+	<!-- ==================== AmmoSet (For Atlatl-like implementation ========================== -->
 
-	<CombatExtended.AmmoSetDef>
+	<!-- <CombatExtended.AmmoSetDef>
 		<defName>AmmoSet_Kunai</defName>
 		<label>kunai</label>
 		<ammoTypes>
-			<Pila>Kunai_Thrown</Pila>
+			<Pila>Kunai_Fired</Pila>
 		</ammoTypes>
-	</CombatExtended.AmmoSetDef>
-	
-	<!-- ==================== Ammo ========================== -->
+	</CombatExtended.AmmoSetDef> -->
 	
 	<!-- ================== Projectiles ================== -->
 
@@ -25,19 +23,14 @@
 		</projectile>
 	</ThingDef>
 	
-	<!-- The amount of arrows usable over the ammo lifetime for each resource cost is equal to
-	[r / (1 - x)];
-		x = preExplosionSpawnChance,
-		r = resource cost. -->
-	
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseKunaiProjectile">
 		<defName>Kunai_Thrown</defName>
 		<label>kunai</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>14</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
 			<speed>60</speed>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
-			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>	<!-- 4 javelins per resource -->
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 			<preExplosionSpawnThingDef>RangedWeapon_Kunai</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>

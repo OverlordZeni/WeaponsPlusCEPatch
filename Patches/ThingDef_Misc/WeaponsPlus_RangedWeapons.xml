@@ -51,7 +51,7 @@
             <SwayFactor>2.5</SwayFactor>
             <Bulk>1.00</Bulk>
             <Mass>0.5</Mass>
-            <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
           </statBases>
           <equippedAngleOffset>30</equippedAngleOffset>
           <stackLimit>75</stackLimit>
@@ -69,8 +69,8 @@
               <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>Kunai_Thrown</defaultProjectile>
-              <warmupTime>0.1</warmupTime>
-              <range>12</range>
+              <warmupTime>0.4</warmupTime>
+              <range>9</range>
             </li>
           </verbs>
           <tools>
@@ -81,7 +81,7 @@
               </capacities>
               <power>8</power>
               <cooldownTime>1.3</cooldownTime>
-              <armorPenetration>0.102</armorPenetration>
+              <armorPenetration>0.087</armorPenetration>
               <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
             </li>
             <li Class="CombatExtended.ToolCE">
@@ -91,7 +91,7 @@
               </capacities>
               <power>10</power>
               <cooldownTime>1.3</cooldownTime>
-              <armorPenetration>0.241</armorPenetration>
+              <armorPenetration>0.114</armorPenetration>
               <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
             </li>
             <li Class="CombatExtended.ToolCE">

@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<!-- ==================== AmmoSet (For Atlatl-like implementation ========================== -->
-
-	<!-- <CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_Kunai</defName>
-		<label>kunai</label>
-		<ammoTypes>
-			<Pila>Kunai_Fired</Pila>
-		</ammoTypes>
-	</CombatExtended.AmmoSetDef> -->
-	
 	<!-- ================== Projectiles ================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseProjectileNeolithic" Name="BaseKunaiProjectile" Abstract="true">
@@ -28,7 +18,7 @@
 		<label>kunai</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
-			<speed>60</speed>
+			<speed>55</speed>
 			<armorPenetrationBase>0.2</armorPenetrationBase>
 			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 			<preExplosionSpawnThingDef>RangedWeapon_Kunai</preExplosionSpawnThingDef>

@@ -27,10 +27,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>36</power>
+          <power>38</power>
           <cooldownTime>3</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.278</armorPenetration>
+          <armorPenetration>0.289</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -41,6 +41,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Great_Axe"]/statBases</xpath>
         <value>
           <Bulk>11</Bulk>
+          <MeleeCounterParryBonus>3</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -49,7 +50,7 @@
         <value>
           <equippedStatOffsets>
 				    <MeleeCritChance>0.75</MeleeCritChance>
-				    <MeleeParryChance>0.5</MeleeParryChance>
+				    <MeleeParryChance>0.375</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -65,7 +66,7 @@
           <li>Poke</li>
           </capacities>
           <power>10</power>
-          <cooldownTime>2.3</cooldownTime>
+          <cooldownTime>2.1</cooldownTime>
           <armorPenetration>0.086</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
@@ -75,7 +76,7 @@
           <li>Blunt</li>
           </capacities>
           <power>6</power>
-          <cooldownTime>2.3</cooldownTime>
+          <cooldownTime>2.1</cooldownTime>
           <armorPenetration>0.087</armorPenetration>
           <!-- <linkedBodyPartsGroup>Chain</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Neck</linkedBodyPartsGroup>
@@ -87,8 +88,8 @@
           <li>Blunt</li>
           </capacities>
           <power>20</power>
-          <cooldownTime>2.3</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
+          <cooldownTime>2.1</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
           <armorPenetration>0.192</armorPenetration>
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
@@ -97,10 +98,9 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>24</power>
-          <cooldownTime>2.3</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.388</armorPenetration>
+          <power>18</power>
+          <cooldownTime>2.1</cooldownTime>
+          <armorPenetration>0.317</armorPenetration>
           <!-- <linkedBodyPartsGroup>Spikes</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
@@ -112,6 +112,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Flail"]/statBases</xpath>
         <value>
           <Bulk>4</Bulk>
+          <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -172,7 +173,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Nunchaku"]/statBases</xpath>
         <value>
           <Bulk>3</Bulk>
-          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+          <MeleeCounterParryBonus>1.125</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -182,7 +183,7 @@
           <equippedStatOffsets>
 				    <MeleeCritChance>0.25</MeleeCritChance>
 				    <MeleeParryChance>0.75</MeleeParryChance>
-            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -211,6 +212,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Maul"]/statBases</xpath>
         <value>
           <Bulk>16</Bulk>
+          <MeleeCounterParryBonus>4</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -219,7 +221,7 @@
         <value>
           <equippedStatOffsets>
 				    <MeleeCritChance>0.5</MeleeCritChance>
-				    <MeleeParryChance>0.375</MeleeParryChance>
+				    <MeleeParryChance>0.25</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -244,10 +246,9 @@
           <capacities>
           <li>Blunt</li>
           </capacities>
-          <power>16</power>
+          <power>18</power>
           <cooldownTime>2</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.163</armorPenetration>
+          <armorPenetration>0.178</armorPenetration>
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -255,10 +256,10 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>18</power>
+          <power>20</power>
           <cooldownTime>2</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.317</armorPenetration>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.341</armorPenetration>
           <!-- <linkedBodyPartsGroup>Spikes</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
@@ -361,10 +362,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>14</power>
+          <power>13.8</power>
           <cooldownTime>1.4</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.142</armorPenetration>
+          <armorPenetration>0.141</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -372,9 +373,9 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>13.5</power>
+          <power>13.3</power>
           <cooldownTime>1.4</cooldownTime>
-          <armorPenetration>0.26</armorPenetration>
+          <armorPenetration>0.257</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -392,14 +393,11 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Kukri"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.25</MeleeCritChance>
+				    <MeleeCritChance>0.6</MeleeCritChance>
 				    <MeleeParryChance>0.25</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
       </li>
-
-      <!-- Kunai oh god don't do this yet -->
-
 
       <!-- Bardiche -->
       <li Class="PatchOperationReplace">
@@ -412,7 +410,7 @@
           <li>Blunt</li>
           </capacities>
           <power>14</power>
-          <cooldownTime>3</cooldownTime>
+          <cooldownTime>2.8</cooldownTime>
           <armorPenetration>0.148</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
@@ -421,9 +419,9 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>23</power>
-          <cooldownTime>3</cooldownTime>
-          <armorPenetration>0.377</armorPenetration>
+          <power>25</power>
+          <cooldownTime>2.8</cooldownTime>
+          <armorPenetration>0.4</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -431,10 +429,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>36</power>
-          <cooldownTime>3</cooldownTime>
+          <power>38</power>
+          <cooldownTime>2.8</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.278</armorPenetration>
+          <armorPenetration>0.289</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -443,7 +441,7 @@
           <li>Blunt</li>
           </capacities>
           <power>18</power>
-          <cooldownTime>3</cooldownTime>
+          <cooldownTime>2.8</cooldownTime>
           <armorPenetration>0.178</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
@@ -455,6 +453,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bardiche"]/statBases</xpath>
         <value>
           <Bulk>12</Bulk>
+          <MeleeCounterParryBonus>2.5</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -462,8 +461,9 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bardiche"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.75</MeleeCritChance>
-				    <MeleeParryChance>0.375</MeleeParryChance>
+				    <MeleeCritChance>0.5</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -479,7 +479,7 @@
           <li>Blunt</li>
           </capacities>
           <power>8</power>
-          <cooldownTime>1.6</cooldownTime>
+          <cooldownTime>2.5</cooldownTime>
           <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
@@ -488,10 +488,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>22</power>
-          <cooldownTime>1.6</cooldownTime>
+          <power>36</power>
+          <cooldownTime>2.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.195</armorPenetration>
+          <armorPenetration>0.278</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -499,10 +499,10 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>22.5</power>
-          <cooldownTime>1.6</cooldownTime>
+          <power>32</power>
+          <cooldownTime>2.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.371</armorPenetration>
+          <armorPenetration>0.478</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -521,7 +521,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Glaive"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeCritChance>0.5</MeleeCritChance>
 				    <MeleeParryChance>0.5</MeleeParryChance>
             <MeleeDodgeChance>0.5</MeleeDodgeChance>
 			    </equippedStatOffsets>
@@ -563,7 +563,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Bo_Staff"]/statBases</xpath>
         <value>
           <Bulk>6</Bulk>
-          <MeleeCounterParryBonus>2</MeleeCounterParryBonus>
+          <MeleeCounterParryBonus>1.3</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -572,7 +572,7 @@
         <value>
           <equippedStatOffsets>
 				    <MeleeCritChance>0.25</MeleeCritChance>
-				    <MeleeParryChance>0.5</MeleeParryChance>
+				    <MeleeParryChance>0.75</MeleeParryChance>
             <MeleeDodgeChance>0.5</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
@@ -621,6 +621,7 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Scythe"]/statBases</xpath>
         <value>
+          <MeleeCounterParryBonus>1.3</MeleeCounterParryBonus>
           <Bulk>12</Bulk>
         </value>
       </li>
@@ -634,6 +635,7 @@
 				    <MeleeParryChance>0.5</MeleeParryChance>
             <PlantHarvestYield>0.1</PlantHarvestYield>
 		        <PlantWorkSpeed>0.1</PlantWorkSpeed>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -648,8 +650,8 @@
           <capacities>
           <li>Blunt</li>
           </capacities>
-          <power>11</power>
-          <cooldownTime>1.75</cooldownTime>
+          <power>9</power>
+          <cooldownTime>2.5</cooldownTime>
           <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
         </li>
@@ -658,10 +660,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>24</power>
-          <cooldownTime>1.75</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.207</armorPenetration>
+          <power>30.5</power>
+          <cooldownTime>2.5</cooldownTime>
+          <chanceFactor>1.33</chanceFactor>
+          <armorPenetration>0.246</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -669,10 +671,9 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>22.5</power>
-          <cooldownTime>1.75</cooldownTime>
-          <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.353</armorPenetration>
+          <power>22</power>
+          <cooldownTime>2.5</cooldownTime>
+          <armorPenetration>0.365</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -691,7 +692,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Naginata"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.75</MeleeCritChance>
+				    <MeleeCritChance>0.5</MeleeCritChance>
 				    <MeleeParryChance>0.5</MeleeParryChance>
             <MeleeDodgeChance>0.5</MeleeDodgeChance>
 			    </equippedStatOffsets>
@@ -708,10 +709,10 @@
           <capacities>
           <li>Blunt</li>
           </capacities>
-          <power>9</power>
-          <cooldownTime>1.2</cooldownTime>
+          <power>10</power>
+          <cooldownTime>1.5</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.11</armorPenetration>
+          <armorPenetration>0.118</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -722,7 +723,6 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Brass_Knuckles"]/statBases</xpath>
         <value>
           <Bulk>1.2</Bulk>
-          <MeleeCounterParryBonus>1.25</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -746,9 +746,9 @@
           <capacities>
           <li>Blunt</li>
           </capacities>
-          <power>12</power>
-          <cooldownTime>1.7</cooldownTime>
-          <armorPenetration>0.133</armorPenetration>
+          <power>13.5</power>
+          <cooldownTime>1.5</cooldownTime>
+          <armorPenetration>0.104</armorPenetration>
           <!-- <linkedBodyPartsGroup>End</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
         </li>
@@ -757,10 +757,10 @@
           <capacities>
           <li>Blunt</li>
           </capacities>
-          <power>13</power>
-          <cooldownTime>1.7</cooldownTime>
+          <power>14.5</power>
+          <cooldownTime>1.5</cooldownTime>
           <chanceFactor>1.33</chanceFactor>
-          <armorPenetration>0.14</armorPenetration>
+          <armorPenetration>0.152</armorPenetration>
           <!-- <linkedBodyPartsGroup>Side</linkedBodyPartsGroup> -->
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
@@ -772,7 +772,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Tonfa"]/statBases</xpath>
         <value>
           <Bulk>5</Bulk>
-          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+          <MeleeCounterParryBonus>1.25</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -781,7 +781,7 @@
         <value>
           <equippedStatOffsets>
 				    <MeleeCritChance>0.25</MeleeCritChance>
-				    <MeleeParryChance>0.5</MeleeParryChance>
+				    <MeleeParryChance>0.8</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -797,7 +797,7 @@
           <li>Blunt</li>
           </capacities>
           <power>9</power>
-          <cooldownTime>2.4</cooldownTime>
+          <cooldownTime>1.8</cooldownTime>
           <armorPenetration>0.11</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
@@ -807,7 +807,7 @@
           <li>Stab</li>
           </capacities>
           <power>21</power>
-          <cooldownTime>2.4</cooldownTime>
+          <cooldownTime>1.8</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
           <armorPenetration>0.353</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
@@ -817,10 +817,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>24</power>
-          <cooldownTime>2.4</cooldownTime>
+          <power>26.3</power>
+          <cooldownTime>1.8</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.207</armorPenetration>
+          <armorPenetration>0.221</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -831,6 +831,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]/statBases</xpath>
         <value>
           <Bulk>3.5</Bulk>
+          <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -838,8 +839,8 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.75</MeleeCritChance>
-				    <MeleeParryChance>0.25</MeleeParryChance>
+				    <MeleeCritChance>0.5</MeleeCritChance>
+				    <MeleeParryChance>0.5</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -864,10 +865,10 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>29</power>
+          <power>32</power>
           <cooldownTime>2.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.445</armorPenetration>
+          <armorPenetration>0.478</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -889,6 +890,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Claymore"]/statBases</xpath>
         <value>
           <Bulk>10</Bulk>
+          <MeleeCounterParryBonus>2.25</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -898,6 +900,7 @@
           <equippedStatOffsets>
 				    <MeleeCritChance>0.75</MeleeCritChance>
 				    <MeleeParryChance>0.66</MeleeParryChance>
+            <MeleeDodgeChance>0.25</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -913,7 +916,7 @@
           <li>Blunt</li>
           </capacities>
           <power>16</power>
-          <cooldownTime>2.7</cooldownTime>
+          <cooldownTime>2.6</cooldownTime>
           <armorPenetration>0.163</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
@@ -922,10 +925,10 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>32</power>
-          <cooldownTime>2.7</cooldownTime>
+          <power>36</power>
+          <cooldownTime>2.6</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.478</armorPenetration>
+          <armorPenetration>0.521</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -933,10 +936,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>38</power>
-          <cooldownTime>2.7</cooldownTime>
+          <power>35</power>
+          <cooldownTime>2.6</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.289</armorPenetration>
+          <armorPenetration>0.272</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -946,7 +949,8 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Zweihander"]/statBases</xpath>
         <value>
-          <Bulk>16</Bulk>
+          <Bulk>12</Bulk>
+          <MeleeCounterParryBonus>2.5</MeleeCounterParryBonus>
         </value>
       </li>
 
@@ -956,6 +960,7 @@
           <equippedStatOffsets>
 				    <MeleeCritChance>0.8</MeleeCritChance>
 				    <MeleeParryChance>0.25</MeleeParryChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
 			    </equippedStatOffsets>
         </value>
       </li>
@@ -971,7 +976,7 @@
           <li>Blunt</li>
           </capacities>
           <power>8</power>
-          <cooldownTime>1.8</cooldownTime>
+          <cooldownTime>1.5</cooldownTime>
           <armorPenetration>0.102</armorPenetration>
           <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
         </li>
@@ -980,10 +985,10 @@
           <capacities>
           <li>Stab</li>
           </capacities>
-          <power>16</power>
-          <cooldownTime>1.8</cooldownTime>
+          <power>13</power>
+          <cooldownTime>1.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.292</armorPenetration>
+          <armorPenetration>0.254</armorPenetration>
           <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
         </li>
         <li Class="CombatExtended.ToolCE">
@@ -991,10 +996,10 @@
           <capacities>
           <li>Cut</li>
           </capacities>
-          <power>18</power>
-          <cooldownTime>1.8</cooldownTime>
+          <power>16</power>
+          <cooldownTime>1.5</cooldownTime>
           <chanceFactor>1.165</chanceFactor>
-          <armorPenetration>0.169</armorPenetration>
+          <armorPenetration>0.156</armorPenetration>
           <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
         </li>
         </tools>
@@ -1012,7 +1017,7 @@
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Sabre"]</xpath>
         <value>
           <equippedStatOffsets>
-				    <MeleeCritChance>0.5</MeleeCritChance>
+				    <MeleeCritChance>0.25</MeleeCritChance>
 				    <MeleeParryChance>0.6</MeleeParryChance>
 			    </equippedStatOffsets>
         </value>

@@ -7,11 +7,6 @@
         <modName>Weapons+</modName>
       </li>
       
-      <!-- Temporarily removing Kunai. -->
-      <!-- <li Class="PatchOperationRemove">
-			<xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
-		  </li> -->
-
       <!-- <li Class="PatchOperationAttributeAdd">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <attribute>Class</attribute>
@@ -69,8 +64,8 @@
               <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>Kunai_Thrown</defaultProjectile>
-              <warmupTime>0.4</warmupTime>
-              <range>9</range>
+              <warmupTime>0.6</warmupTime>
+              <range>15</range>
             </li>
           </verbs>
           <tools>
@@ -79,7 +74,7 @@
               <capacities>
                 <li>Blunt</li>
               </capacities>
-              <power>8</power>
+              <power>6</power>
               <cooldownTime>1.3</cooldownTime>
               <armorPenetration>0.087</armorPenetration>
               <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>

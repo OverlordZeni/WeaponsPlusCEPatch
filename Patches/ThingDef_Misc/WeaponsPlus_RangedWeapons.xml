@@ -7,7 +7,7 @@
         <modName>Weapons+</modName>
       </li>
       
-      <!-- <li Class="PatchOperationAttributeAdd">
+      <li Class="PatchOperationAttributeAdd">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <attribute>Class</attribute>
         <value>CombatExtended.AmmoDef</value>
@@ -17,59 +17,43 @@
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <attribute>ParentName</attribute>
         <value>BaseWeaponAndAmmoNeolithic</value>
-		  </li> -->
+		  </li>
 
-      <!-- Guh, I'm just going to replace the whole thing for now. 
-      Will learn modcheck later so that I can replace small parts without performing so many xpaths. 
-      Could also just patch Pila and parent it here, hm. -->
       <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Ammo/Neolithic/Kunai</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+          </graphicData>
+        </value>
+      </li>
+
+      <!-- Kunai is made of stuff, we remove that and just give a steel cost per kunai. -->
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/costStuffCount|/Defs/ThingDef[defName="RangedWeapon_Kunai"]/stuffCategories</xpath>
+      </li>
+
+      <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]</xpath>
         <value>
-          <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseWeaponAndAmmoNeolithic">
-            <defName>RangedWeapon_Kunai</defName>
-            <label>kunai</label>
-            <description>Originally a Japanese farming instrument, similar in use to a hand-shovel, the kunai is a multi-purpose tool useful in both ranged and melee combat.</description>
-            <graphicData>
-              <texPath>Things/Ammo/Neolithic/Kunai</texPath>
-              <graphicClass>Graphic_StackCount</graphicClass>
-              <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
-            </graphicData>
-          <soundInteract>Interact_BeatFire</soundInteract>
           <costList>
             <Steel>3</Steel>
           </costList>
-          <statBases>
-            <WorkToMake>1400</WorkToMake>
-            <MarketValue>4</MarketValue>
-            <SightsEfficiency>0.45</SightsEfficiency>
-            <ShotSpread>1.5</ShotSpread>
-            <SwayFactor>2.5</SwayFactor>
-            <Bulk>1.00</Bulk>
-            <Mass>0.5</Mass>
-            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-          </statBases>
-          <equippedAngleOffset>30</equippedAngleOffset>
           <stackLimit>75</stackLimit>
-          <weaponTags>
-            <li>NeolithicRanged</li>
-            <li>CE_Pila</li>
-            <li>CE_OneHandedWeapon</li>
-            <li>CE_AI_Rifle</li>
-          </weaponTags>
           <tradeTags>
             <li>CE_AutoEnableTrade</li>
           </tradeTags>
-          <verbs>
-            <li Class="CombatExtended.VerbPropertiesCE">
-              <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
-              <hasStandardCommand>true</hasStandardCommand>
-              <defaultProjectile>Kunai_Thrown</defaultProjectile>
-              <warmupTime>0.6</warmupTime>
-              <range>15</range>
-            </li>
-          </verbs>
+          <ammoClass>Kunai</ammoClass>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/tools</xpath>
+        <value>
           <tools>
-            <li Class="CombatExtended.ToolCE">
+              <li Class="CombatExtended.ToolCE">
               <label>handle</label>
               <capacities>
                 <li>Blunt</li>
@@ -101,11 +85,69 @@
               <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
             </li>
           </tools>
-          <ammoClass>Kunai</ammoClass>
-         </ThingDef>
         </value>
       </li>
 
+      <li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/verbs</xpath>
+        <value>
+          <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+              <verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>Kunai_Thrown</defaultProjectile>
+              <warmupTime>0.6</warmupTime>
+              <range>15</range>
+            </li>
+          </verbs>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+			  <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/statBases</xpath>
+        <value>
+          <statBases>
+            <WorkToMake>1000</WorkToMake>
+            <MarketValue>4</MarketValue>
+            <SightsEfficiency>0.45</SightsEfficiency>
+            <ShotSpread>1.5</ShotSpread>
+            <SwayFactor>2.5</SwayFactor>
+            <Bulk>1.00</Bulk>
+            <Mass>0.5</Mass>
+            <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+          </statBases>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="RangedWeapon_Kunai"]/weaponTags</xpath>
+        <value>
+          <li>CE_Pila</li>
+          <li>CE_OneHandedWeapon</li>
+          <li>CE_AI_Rifle</li>
+        </value>
+      </li>
+
+	    <!-- ================== Projectile ================== -->
+      <li Class="PatchOperationAttributeAdd">
+        <xpath>/Defs/ThingDef[defName="Kunai_Thrown"]</xpath>
+        <attribute>Class</attribute>
+        <value>CombatExtended.AmmoDef</value>
+		  </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Kunai_Thrown"]/projectile</xpath>
+        <value>
+          <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageDef>Stab</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>55</speed>
+            <armorPenetrationBase>0.15</armorPenetrationBase>
+            <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+            <preExplosionSpawnThingDef>RangedWeapon_Kunai</preExplosionSpawnThingDef>
+          </projectile>
+        </value>
+      </li>
     </operations>
   </Operation>
 </Patch>

@@ -830,8 +830,17 @@
       <li Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]/statBases</xpath>
         <value>
-          <Bulk>3.5</Bulk>
+          <Bulk>6</Bulk>
           <MeleeCounterParryBonus>1.5</MeleeCounterParryBonus>
+        </value>
+      </li>
+
+      <!-- Changing Mass since it's a 2h weapon now -->
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="MeleeWeapon_Katana"]/statBases/Mass</xpath>
+        <value>
+          <Mass>1.5</Mass>
         </value>
       </li>
 
